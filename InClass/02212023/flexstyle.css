@@ -1,0 +1,41 @@
+section {
+
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
+header {
+    text-align: center;
+    flex: 1 100px;
+}
+
+article{
+    text-align: center;
+    padding-top: 0px;
+    height: 75px;
+    background-color: teal;
+    flex: 4 400px;
+    float: left;
+}
+
+aside {
+    text-align: center;
+    height: 75px;
+    background-color: #FFCCFF;
+    flex: 1 100px;
+    float: left;
+}
+
+.name {
+    padding-top: 100px;
+}
+
+.f {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

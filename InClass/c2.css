@@ -1,0 +1,17 @@
+.name{
+    text-align: center;
+}
+
+.lrft{
+    float: left;
+    width: 20%;
+    height: 75px;
+    background-color: red;
+}
+
+.right{
+    float: left;
+    width: 80%;
+    height: 75px;
+    background-color: blue;
+}

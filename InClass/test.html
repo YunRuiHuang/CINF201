@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .left{
+          float: left;
+          padding-top: 0px;
+          width: 20%;
+          height: 75px;
+          background-color: red;
+      }
+
+      .right{
+          float: left;
+          width: 80%;
+          height: 75px;
+          background-color: blue;
+      }
+      
+      .b{
+        text-align: center;
+        padding-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>post title: <span id="spanId"></span></div>
+
+    <div class="left"><h3>text</h3></div>
+    <div class="right">text</div>
+    <div class="b">about us</div>
+
+
+    <script>
+      async function fillTheTitle() {
+        const post = await fetch("https://www.albany.edu/~yh668336/data.json").then((res) => {
+            document.getElementById("spanId").InnerText = res.json().test;
+        });
+        //document.getElementsByTagName("html")[0].innerHTML = post.document.getElementsByTagName("html")[0];
+      }
+      fillTheTitle();
+    </script>
+  </body>
+</html>

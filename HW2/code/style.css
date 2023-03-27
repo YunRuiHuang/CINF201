@@ -1,0 +1,75 @@
+/* most ontner div */
+.background {
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+/* the div in the middle */
+.inner {
+    background-color: aqua;
+    width: 95%;
+    margin: auto;
+    
+    
+}
+
+/* the div which contain three div */
+.stuff {
+    width: 95%;
+    margin: auto;
+    overflow: auto;
+}
+
+
+/* the div contain the link of other page */
+.nav {
+    background-color:cornflowerblue;
+    width: 30%;
+    float: left;
+    height: 180px;
+}
+
+/* the div contain the first item (at middle) */
+.item1 {
+    background-color: beige;
+    width: 35%;
+    float: left;
+    height: 180px;
+
+}
+
+/* the div contain the second item (at right) */
+.item2 {
+    background-color: beige;
+    width: 35%;
+    float: left;
+    height: 180px;
+
+}
+
+/* for the email link */
+.email {
+    width: 100%;
+}
+
+li{
+    list-style-type: none
+}
+
+/* pseudo classes for the hyper link */
+/* unvisited link */
+a:link {
+    color: blue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: red;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: darkblue;
+  }
