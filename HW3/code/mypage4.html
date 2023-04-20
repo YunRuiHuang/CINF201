@@ -4,44 +4,48 @@
 <head>
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculater.js"></script>
     <title>yunrui resume</title>
 </head>
 
 <body>
 
     <!-- This div that is centered at the top of each page for the title of the site -->
-    <div class="background">
+    <div class="background"> 
         <h1>Yunrui Huang's Resume</h1>
         <div class="inner">
-            <h2>Educational Experience</h2>
+            <h2>Salary Calculator</h2>
 
             <!-- This div that is centered and visible (acts as a buffer) and contains within it three divs that are centered and horizontally next to each other  -->
             <div class="stuff">
                 <div class="nav">
                     <h2>Other page</h2>
-
+                    
                     <ul>
                         <!-- Link to all of your other pages -->
                         <li><a href="mypage1.html" title="jump to mypage1.html">Work esperience</a></li>
                         <li><a href="mypage2.html" title="jump to mypage2.html">Educational Experience</a></li>
                         <li><a href="mypage3.html" title="jump to mypage3.html">Skills and Programing Language </a></li>
+                        <li><a href="mypage4.html" title="jump to mypage4.html">Salary Calculator </a></li>
                     </ul>
                 </div>
 
                 <div class="item1">
-                    <h2>Holy Spirit High School</h2>
-                    <a href="https://www.holyspirithighschool.com/" target="_blank">webside</a>
-                    <p>Graduated 2019</p>
+                    <p>Plass fill out the information below to see how much of a salary a hourly wage equals.</p>
+                    <p>Enter the hourly rate: <input type="text" id="rate"></p>
+                    <p>Enter hours per week: <input type="text" id="hours"></p>
+                    <button onclick="submit()">check</button>
+                    <p>The year salary is :</p>
+                    <p id="salary"></p>
                 </div>
 
                 <div class="item2">
-                    <h2>SUNY University at Albany</h2>
-                    <a href="https://www.albany.edu/" target="_blank">webside</a>
-                    <p>Graduated 2023</p>
+                    <p>Comming soon</p>
                 </div>
             </div>
             <!-- Email link -->
             <a href="mailto:yhuang35@albany.edu">Email me!</a>
+
         </div>
 
     </div>

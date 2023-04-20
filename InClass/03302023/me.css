@@ -1,0 +1,25 @@
+header{
+    text-align: center;
+}
+
+nav{
+    float: left;
+    width: 25%;
+    height: 100px;
+    background-color: yellow;
+}
+
+main {
+    float: left;
+    width: 75%;
+    height: 100px;
+    background-color: blue;
+}
+
+a{
+    display: block;
+}
+
+@media(max-width:575px) {
+    
+}

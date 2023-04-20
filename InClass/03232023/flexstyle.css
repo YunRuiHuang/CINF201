@@ -15,16 +15,16 @@ header {
 
 article{
     text-align: center;
-    padding-top: 0px;
-    height: 75px;
-    background-color: teal;
+    padding: 0px;
+    height: 195px;
+    background-color: #6AB4B4;
     flex: 4 400px;
     float: left;
 }
 
 aside {
     text-align: center;
-    height: 75px;
+    height: 195px;
     background-color: #FFCCFF;
     flex: 1 100px;
     float: left;
@@ -40,10 +40,15 @@ aside {
     flex-wrap: wrap;
 }
 
+img {
+    height: 100px;
+    width: 170px;
+}
+
 @media (max-width:600px){
     .f{width: 90%;text-align: center; margin: auto;}
     aside{flex: 1 500px; text-align: center; margin: auto;}
-    article{flex: 1 500px; text-align: center; margin: auto;}
+    article{flex: 1 500px; text-align: center; margin: auto;padding: 3%;}
     .name{padding-top: 20px;}
     a{display: block;}
 }

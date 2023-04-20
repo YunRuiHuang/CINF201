@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>change color</title>
+        <script>
+            let change = ()=>{
+                let color = document.getElementById("color").value;
+                document.getElementsByTagName("body")[0].style.backgroundColor = color;
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" name="color" id="color">
+        <button onclick="change()">change</button>
+    </body>
+
+</html>
